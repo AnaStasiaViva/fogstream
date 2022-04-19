@@ -16,7 +16,6 @@ function App() {
           <Routes>
             <Route path="/news" element={<CardPage />} />
             <Route path="/pagination" element={<CardPaginationPage />} />
-            {/* <Route path="/pagination/:id" element={<NCardItem />} /> */}
 
             <Route path="/news/:id" element={<NCardItem />} />
 

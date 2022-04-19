@@ -8,9 +8,16 @@ import { grey, blue } from "@mui/material/colors";
 
 const getDesignTokens = (mode, typography) => ({
   typography: {
+    fontFamily: [
+      "Nunito",
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+    ].join(","),
     fontSize: typography || 18,
     "@media (min-width:600px)": {
-      fontSize: "1.5rem",
+      fontSize: "1.3rem",
     },
   },
   palette: {
